@@ -196,3 +196,4 @@ D:\PastaLocal\2DS\DS_Luiz-Quiteria\Aula06\RpgApi\bin\Debug\net10.0\runtimes\osx-
 D:\PastaLocal\2DS\DS_Luiz-Quiteria\Aula06\RpgApi\bin\Debug\net10.0\runtimes\win-arm64\native\msalruntime_arm64.dll
 D:\PastaLocal\2DS\DS_Luiz-Quiteria\Aula06\RpgApi\bin\Debug\net10.0\runtimes\win-x64\native\msalruntime.dll
 D:\PastaLocal\2DS\DS_Luiz-Quiteria\Aula06\RpgApi\bin\Debug\net10.0\runtimes\win-x86\native\msalruntime_x86.dll
+D:\PastaLocal\2DS\DS_Luiz-Quiteria\Aula06\RpgApi\obj\Debug\net10.0\RpgApi.sourcelink.json
