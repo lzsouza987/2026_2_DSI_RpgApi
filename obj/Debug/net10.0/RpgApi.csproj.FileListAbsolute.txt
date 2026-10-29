@@ -197,3 +197,6 @@ D:\PastaLocal\2DS\DS_Luiz-Quiteria\Aula06\RpgApi\bin\Debug\net10.0\runtimes\win-
 D:\PastaLocal\2DS\DS_Luiz-Quiteria\Aula06\RpgApi\bin\Debug\net10.0\runtimes\win-x64\native\msalruntime.dll
 D:\PastaLocal\2DS\DS_Luiz-Quiteria\Aula06\RpgApi\bin\Debug\net10.0\runtimes\win-x86\native\msalruntime_x86.dll
 D:\PastaLocal\2DS\DS_Luiz-Quiteria\Aula06\RpgApi\obj\Debug\net10.0\RpgApi.sourcelink.json
+D:\PastaLocal\2DS\DS_Luiz-Quiteria\Aula06\RpgApi\bin\Debug\net10.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\PastaLocal\2DS\DS_Luiz-Quiteria\Aula06\RpgApi\bin\Debug\net10.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\PastaLocal\2DS\DS_Luiz-Quiteria\Aula06\RpgApi\bin\Debug\net10.0\Newtonsoft.Json.Bson.dll
