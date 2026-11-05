@@ -23,6 +23,7 @@ namespace RpgApi.Data
         public DbSet<Usuario> TB_USUARIOS { get; set; }
         public DbSet<Habilidade> TB_HABILIDADES { get; set; }
         public DbSet<PersonagemHabilidade> TB_PERSONAGENS_HABILIDADES { get; set; }
+        public DbSet<Disputa> TB_DISPUTAS { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -31,6 +32,7 @@ namespace RpgApi.Data
             modelBuilder.Entity<Usuario>().ToTable("TB_USUARIOS");
             modelBuilder.Entity<Habilidade>().ToTable("TB_HABILIDADES");
             modelBuilder.Entity<PersonagemHabilidade>().ToTable("TB_PERSONAGENS_HABILIDADES");
+            modelBuilder.Entity<Disputa>().ToTable("TB_DISPUTAS");
 
              //Relacionamento One to Many (Um para muitos)
             modelBuilder.Entity<Usuario>()
