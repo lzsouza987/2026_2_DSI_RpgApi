@@ -115,6 +115,13 @@ namespace RpgApi.Data
             //Define que se o Perfil não for informado, o valor padrão será jogador
             modelBuilder.Entity<Usuario>().Property(u => u.Perfil).HasDefaultValue("Jogador");     
 
+             modelBuilder.Entity<Disputa>().HasKey(d => d.Id);//Indicação da chave primária da entidade.
+            //Abaixo fica o mapeamento do nome das colunas da tabela para as propriedades da classe.
+            modelBuilder.Entity<Disputa>().Property(d => d.DataDisputa).HasColumnName("Dt_Disputa");
+            modelBuilder.Entity<Disputa>().Property(d => d.AtacanteId).HasColumnName("AtacanteId");
+            modelBuilder.Entity<Disputa>().Property(d => d.OponenteId).HasColumnName("OponenteId");
+            modelBuilder.Entity<Disputa>().Property(d => d.Narracao).HasColumnName("Tx_Narracao"); 
+
         }
 
         protected override void ConfigureConventions(ModelConfigurationBuilder configurationBuilder)
