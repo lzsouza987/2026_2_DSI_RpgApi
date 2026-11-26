@@ -23,6 +23,9 @@ namespace RpgApi.Models
         public string? Perfil { get; set; }
         public string? Email { get; set; }
 
+        [NotMapped]
+        public string Token { get; set; } = string.Empty;
+
         public List<Personagem> Personagens { get; set; }
             = new List<Personagem>();
     

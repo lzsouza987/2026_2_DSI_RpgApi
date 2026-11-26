@@ -6,9 +6,11 @@ using Microsoft.AspNetCore.Mvc;
 using RpgApi.Data;
 using RpgApi.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authorization;
 
 namespace RpgApi.Controllers
 {
+    [Authorize]
     [ApiController]
     [Route("[controller]")]
     public class PersonagensController : ControllerBase
